@@ -1,0 +1,104 @@
+{
+  "name": "landing.krivoshein.site",
+  "description": "Статические и WordPress one-page сайты: оффер, SEO, PWA, деплой. От 25 000 ₽.",
+  "url": "https://landing.krivoshein.site/",
+  "version": "2026-08-05",
+  "provider": {
+    "name": "Алексей Кривошеин",
+    "organization": "ИП Кривошеин Алексей Сергеевич",
+    "url": "https://krivoshein.site/",
+    "email": "aleksey@krivoshein.site",
+    "telephone": "+79636641615"
+  },
+  "language": [
+    "ru",
+    "en"
+  ],
+  "defaultLanguage": "ru",
+  "contact": {
+    "telegram": "https://t.me/DrSlon",
+    "max": "https://max.ru/id770603253213_1_bot",
+    "email": "aleksey@krivoshein.site",
+    "phone": "+79636641615",
+    "page": "https://krivoshein.site/contacts/",
+    "preferred": [
+      "telegram",
+      "max"
+    ]
+  },
+  "commercial": {
+    "hourlyRateRub": 2000,
+    "currency": "RUB",
+    "contract": true,
+    "nonCash": true,
+    "primaryConsultationFree": true,
+    "experienceYears": 12,
+    "pricingNote": "Ориентиры, не публичная оферта.",
+    "offers": [
+      {
+        "name": "Лендинг-визитка",
+        "priceHint": "от 25 000 ₽"
+      },
+      {
+        "name": "SEO-лендинг",
+        "priceHint": "от 45 000 ₽"
+      },
+      {
+        "name": "WP-лендинг",
+        "priceHint": "от 50 000 ₽"
+      }
+    ]
+  },
+  "documentation": {
+    "llms": "https://landing.krivoshein.site/llms.txt",
+    "llmsFull": "https://landing.krivoshein.site/llms-full.txt",
+    "aiIndex": "https://landing.krivoshein.site/ai.txt",
+    "agents": "https://landing.krivoshein.site/agents.md",
+    "openapi": "https://landing.krivoshein.site/openapi.json",
+    "apiCatalog": "https://landing.krivoshein.site/.well-known/api-catalog",
+    "sitemap": "https://landing.krivoshein.site/sitemap.xml",
+    "privacy": "https://landing.krivoshein.site/privacy.html",
+    "contacts": "https://krivoshein.site/contacts/",
+    "ecosystemHub": "https://krivoshein.site/llms.txt"
+  },
+  "capabilities": {
+    "markdownDiscovery": true,
+    "jsonLd": true,
+    "openApi": true,
+    "skills": [
+      "landing-pages",
+      "static-sites",
+      "seo",
+      "pwa",
+      "web-design",
+      "one-page"
+    ]
+  },
+  "usagePolicy": {
+    "search": true,
+    "aiInput": true,
+    "aiTrain": false,
+    "citationRequired": true
+  },
+  "relatedSites": [
+    "https://krivoshein.site/",
+    "https://landing.krivoshein.site/",
+    "https://wordpress.krivoshein.site/",
+    "https://vps.krivoshein.site/",
+    "https://bots.krivoshein.site/",
+    "https://direct.krivoshein.site/",
+    "https://ai-ready.krivoshein.site/",
+    "https://cybertools.cc/",
+    "https://domaintools.site/",
+    "https://study.krivoshein.site",
+    "https://support.krivoshein.site",
+    "https://fortesting.ru"
+  ],
+  "updated": "2026-07-29",
+  "contentSignal": {
+    "search": true,
+    "aiInput": true,
+    "aiTrain": false,
+    "citationRequired": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Landings | Кривошеин",
+  "short_name": "Landings",
+  "description": "Лендинги под ключ: one-page сайты для услуг и B2B. От 25 000 ₽.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5181fe",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png?v=20260717",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png?v=20260717",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

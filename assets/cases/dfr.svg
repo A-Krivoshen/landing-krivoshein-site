@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Превью designersfromrussia.ru">
+  <rect width="960" height="600" fill="#fafafa"/>
+  <rect x="36" y="28" width="888" height="44" rx="10" fill="#111111"/>
+  <circle cx="62" cy="50" r="6" fill="#ff5f57"/>
+  <circle cx="84" cy="50" r="6" fill="#febc2e"/>
+  <circle cx="106" cy="50" r="6" fill="#28c840"/>
+  <text x="150" y="54" fill="#d4d4d4" font-family="Inter,system-ui,sans-serif" font-size="12">designersfromrussia.ru</text>
+  <rect x="36" y="92" width="888" height="472" rx="16" fill="#ffffff"/>
+  <rect x="36" y="92" width="888" height="70" fill="#111111"/>
+  <text x="68" y="136" fill="#ffffff" font-family="Georgia,serif" font-size="20" font-weight="700" letter-spacing="2">DESIGNERS FROM RUSSIA</text>
+  <text x="68" y="210" fill="#111111" font-family="Georgia,serif" font-size="28" font-weight="700">Диджитал-издание</text>
+  <text x="68" y="248" fill="#111111" font-family="Georgia,serif" font-size="28" font-weight="700">о российских дизайнерах</text>
+  <text x="68" y="285" fill="#737373" font-family="Inter,system-ui,sans-serif" font-size="14">Мода · люди · события · брендинг</text>
+  <g>
+    <rect x="68" y="320" width="250" height="200" rx="4" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <rect x="68" y="320" width="250" height="120" fill="#d4d4d4"/>
+    <text x="88" y="470" fill="#111" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600">Мода и брендинг</text>
+    <text x="88" y="492" fill="#737373" font-family="Inter,system-ui,sans-serif" font-size="11">Редакционные материалы</text>
+    <rect x="338" y="320" width="250" height="200" rx="4" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <rect x="338" y="320" width="250" height="120" fill="#c4c4c4"/>
+    <text x="358" y="470" fill="#111" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600">Люди</text>
+    <text x="358" y="492" fill="#737373" font-family="Inter,system-ui,sans-serif" font-size="11">Интервью с дизайнерами</text>
+    <rect x="608" y="320" width="250" height="200" rx="4" fill="#f5f5f5" stroke="#e5e5e5"/>
+    <rect x="608" y="320" width="250" height="120" fill="#a3a3a3"/>
+    <text x="628" y="470" fill="#111" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600">События</text>
+    <text x="628" y="492" fill="#737373" font-family="Inter,system-ui,sans-serif" font-size="11">Fashion week и премии</text>
+  </g>
+</svg>
