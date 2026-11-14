@@ -304,6 +304,7 @@
   ]
 }
   </script>
+  <link rel="stylesheet" href="assets/contact-brief.css?v=20261114">
 </head>
 <body class="has-mobile-cta art-lb" data-product="landing">
   <a class="skip-link" href="#main">К содержанию</a>
@@ -321,7 +322,7 @@
           </div>
         </div>
         <div class="krv-nav-right">
-          <a href="https://krivoshein.site/contacts/"
+          <a href="#brief"
              class="krv-nav-cta inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold bg-krv text-white border border-transparent hover:bg-krv-dark rounded-2xl transition-all shadow-krv-cta">
             Заказать лендинг
           </a>
@@ -408,8 +409,8 @@
   <!-- SOCIAL PROOF: real clients + Yandex reviews -->
   <section class="krv-proof krv-reveal" id="reviews" aria-label="Клиенты и отзывы">
     <div class="krv-proof__head">
-      <h2>Клиенты и отзывы на Яндексе</h2>
-      <p>Проекты из портфолио и отзывы клиентов на Яндекс Картах.</p>
+      <h2 data-krv-text="experience">Опыт сотрудничества и отзывы</h2>
+      <p data-krv-text="experienceLead">Компании, с которыми я работал в разные годы. Отзывы обо мне доступны на Яндекс Картах.</p>
     </div>
 
     <div class="krv-proof__rating">
@@ -619,7 +620,7 @@
           <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-500 mt-1"></i> Форма / ссылки на контакты</li>
           <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-500 mt-1"></i> Деплой на хостинг</li>
         </ul>
-        <a href="https://krivoshein.site/contacts/"
+        <a href="#brief"
            class="mt-5 block text-center bg-krv shadow-krv-cta hover:bg-krv-dark transition-colors text-white font-semibold py-3.5 rounded-2xl">
           Заказать лендинг
         </a>
@@ -642,7 +643,7 @@
           <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-500 mt-1"></i> Тема день/ночь, cookie, аналитика</li>
           <li class="flex gap-x-3"><i class="fa-solid fa-check text-emerald-500 mt-1"></i> Деплой + SSL + базовая доводка</li>
         </ul>
-        <a href="https://krivoshein.site/contacts/?pkg=full"
+        <a href="#brief" data-krv-package="full"
            class="mt-5 block text-center bg-krv hover:bg-krv-dark transition-colors text-white font-semibold py-3.5 rounded-2xl">
           Заказать лендинг
         </a>
@@ -722,7 +723,7 @@
         <p class="mt-4 text-lg text-white">Напишите - разберём оффер, сроки и формат (статика или WP). Ориентир по цене: от 25 000 ₽.</p>
       </div>
       <div class="mt-5 md:mt-6">
-        <a href="https://krivoshein.site/contacts/"
+        <a href="#brief"
            class="inline-flex items-center justify-center gap-x-3 bg-white text-slate-900 hover:bg-slate-100 transition-all font-semibold px-8 md:px-10 min-h-14 py-3.5 rounded-3xl text-base md:text-lg w-full sm:w-auto">Заказать лендинг<i class="fa-solid fa-arrow-right"></i></a>
         
       </div>
@@ -750,20 +751,25 @@
   </section>
 
 <section class="krv-qual-section" id="brief" aria-label="Короткий бриф">
-    <div id="krv-qual" class="krv-qual">
-      <h2>Короткий бриф</h2>
-      <p class="krv-qual__lead">Выберите задачу - открою Telegram с готовым текстом сообщения.</p>
-      <label for="krv-qual-need">Что нужно?</label>
+    <div id="krv-qual" class="krv-qual" data-krv-brief data-service="landing">
+      <h2 data-krv-text="title">Коротко расскажите о задаче</h2>
+      <p class="krv-qual__lead" data-krv-text="lead">Можно без технических терминов. Напишите сразу или подготовьте текст ниже.</p>
+      <div class="krv-brief-channels">
+        <a class="krv-brief-channel" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a class="krv-brief-channel" href="https://krivoshein.site/max" target="_blank" rel="noopener noreferrer">MAX</a>
+      </div>
+      <p><a href="mailto:aleksey@krivoshein.site">aleksey@krivoshein.site</a> · <a href="tel:+79636641615">+7 (963) 664-16-15</a></p>
+      <label for="krv-qual-need" data-krv-text="need">Что требуется?</label>
       <select id="krv-qual-need">
             <option value="Нужен новый лендинг">Нужен новый лендинг</option>
             <option value="Доработать текущий">Доработать текущий</option>
             <option value="Посоветоваться по структуре">Посоветоваться по структуре</option>
       </select>
-      <label for="krv-qual-note">Комментарий (необязательно)</label>
-      <input id="krv-qual-note" type="text" maxlength="200" placeholder="Срок, ссылка на сайт, бюджет - если есть" autocomplete="off">
-      <div class="krv-qual__actions">
-        <a class="krv-qual__btn" id="krv-qual-go" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
-      </div>
+      <label for="krv-qual-note" data-krv-text="note">Краткое описание (необязательно)</label>
+      <textarea id="krv-qual-note" class="ym-disable-keys" rows="3" maxlength="2000" autocomplete="off"></textarea>
+      <div class="krv-qual__actions"></div>
+      <noscript><p>Подготовка текста требует JavaScript. Напишите напрямую удобным способом выше.</p></noscript>
+      <p class="krv-brief-privacy" data-krv-text="privacy">Текст остаётся в браузере до копирования. Ничего не отправляется автоматически. Не указывайте пароли и секреты.</p>
     </div>
   </section>
 
@@ -798,7 +804,8 @@
 
   <div class="mobile-cta-bar" role="region" aria-label="Быстрая заявка">
     <a class="cta-secondary" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Telegram</a>
-    <a class="cta-primary" href="https://krivoshein.site/contacts/">Заказать лендинг</a>
+    <a class="cta-secondary" href="https://krivoshein.site/max" target="_blank" rel="noopener noreferrer">MAX</a>
+    <a class="cta-primary" href="#brief">Обсудить</a>
   </div>
 
         <div id="krv-cookie" class="krv-cookie" role="region" aria-label="Уведомление о cookies и аналитике" hidden>
@@ -818,7 +825,7 @@
 <script src="assets/cookie-pwa.js" defer></script>
   <script src="assets/premium.js" defer></script>
   <script>window.__KRV_METRIKA_ID=111067070;</script>
-<script src="assets/krv-lift.js?v=20260825reviews" defer></script>
+<script src="assets/krv-lift.js?v=20261114brief" defer></script>
   <script src="assets/theme-i18n.js?v=20261112clean" defer></script>
   <script id="krv-matrix-gate">
   (function(){
@@ -835,5 +842,6 @@
 <!-- KRV AI Assistant -->
   <script src="https://support.krivoshein.site/widget/krv-assistant.js?v=20261111r" defer data-api="https://support.krivoshein.site/api/v1" data-side="right"></script>
 
+  <script src="assets/contact-brief.js?v=20261114" defer></script>
 </body>
 </html>
