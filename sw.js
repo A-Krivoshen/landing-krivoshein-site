@@ -1,5 +1,5 @@
 /* PWA service worker — https://landing.krivoshein.site */
-var CACHE = 'krv-landing-eco-20261115';
+var CACHE = 'krv-landing-eco2-20261115';
 var PRECACHE = [
   '/',
   '/privacy.html',
